@@ -209,3 +209,7 @@ html[class~="dark"] .content table:not(.code-block table) th {
 html[class~="dark"] .content table:not(.code-block table) tr {
     color: #ececfe;
   } 
+
+.changelog-date svg {
+  display: inline;
+}

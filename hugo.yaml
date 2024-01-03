@@ -66,9 +66,13 @@ params:
     enable: true
     base: "https://github.com/cnivolle/doc.clever-cloud.com/"
 
+  blog:
+    list:
+      displayTags: true
+
 markup:
   goldmark:
-    renderer: 
+    renderer:
       unsafe: true
   highlight:
     noClasses: false
@@ -87,6 +91,9 @@ menu:
     - identifier: openapi
       name: openAPI
       pageRef: /openapi
+    - identifier: changelog
+      name: Changelog
+      pageRef: /changelog
       weight: 3
     - identifier: components
       name: UI components
